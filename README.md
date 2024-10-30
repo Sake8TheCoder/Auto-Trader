@@ -31,13 +31,6 @@ This website is hosted using AWS Amplify, however if you wish to run it on a loc
 ```
 npm start
 ```
-
-Or if you prefer using Yarn you can run
-
-```
-yarn start
-```
-
 The website should automatically open on your prefered browser.
 
 ## Tests
