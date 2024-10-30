@@ -1,0 +1,77 @@
+/*Design rendering of Welcome class (home page) and may be SignUp class*/
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+.header h1{
+  text-align: center;
+  color: Brown;
+  font-size:500%;
+}
+
+.navigationbar{
+  overflow:hidden;
+  background-color:grey;
+}
+.navigationbar a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 130px;
+  text-decoration: none;
+  color:white;
+  font-size:125%;
+  font-weight: bold;
+}
+.navigationbar a:hover{
+  background-color: #ddd;
+  color: brown;
+}
+
+.body{
+  background-clip: padding-box;
+  background-color: #f1f1f1;
+}
+.body img{
+  padding-top: 10px;
+  border-radius: 8px;
+  width:100%;
+  opacity:0.9;
+  filter: grayscale(50%);
+}
+.text {
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate( -50%);
+  font-size:200%;
+  text-align: center;
+  color:black;
+}
+
+.signup a{
+  overflow:hidden;
+  background-color:grey;
+  float: center;
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  color:white;
+  font-size:125%;
+  font-weight: bold;
+}
+
+
+
